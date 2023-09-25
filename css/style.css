@@ -28,12 +28,16 @@ header{
     justify-content: space-between;
 }
 .px{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .py{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.marginy{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .debug{
     border: 1px solid black;
@@ -50,12 +54,32 @@ header{
 .col{
     margin-top: 15px;
     background-color: var(--color-bg-card);
+    border-radius: 30px;
+}
+img{
+    width: 100%;
+    display: block;
 }
 .line-height{
-    line-height: 1.4em;
+    line-height: 2em;
 }
 .col h3{
     color: var(--color-secondary-color);
-    padding-bottom: 10px;
-    
+    padding-bottom: 25px;
+    padding-top: 30px;
+    font-size: 1.8em;
+}
+.btn{
+    background-color: var(--color-secondary-color);
+    color: white;
+    display: inline-block;
+    border-radius: 30px;
+    width: 80%;
+    padding: 15px 30px 15px 30px;
+    font-size: 1.8em;
+}   
+.icon{
+    font-size: 4em;
+    color: var(--color-secondary-color);
+    padding: 15px;
 }
