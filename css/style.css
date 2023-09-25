@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	--color-secondary-color: #0084FD;
+	--color-dark-color: #333333;
+	--color-light-color: #FFFFFF;
+	--color-primary-color: #9792E4;
+	--color-bg-card: #B5DDFF;
+	--color-contrast-color: #FCC060;
+	--color-text: #424242;
+}
+body{
+    font-family: 'Instrument Sans', sans-serif;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: var(--color-secondary-color);
+}
+/* utility */
+.d-flex{
+    display: flex;
+}
+.flex-space{
+    justify-content: space-between;
+}
+.px{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.py{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.debug{
+    border: 1px solid black;
+}
+.text-align{
+    text-align: center;
+}
+
+
+/* utility */
+.logo{
+    height: 50px;
+}
+.col{
+    margin-top: 15px;
+    background-color: var(--color-bg-card);
+}
+.line-height{
+    line-height: 1.4em;
+}
+.col h3{
+    color: var(--color-secondary-color);
+    padding-bottom: 10px;
+    
+}
