@@ -49,18 +49,22 @@ header{
 .block{
     display:block;
 }
+.inblock{
+    display: inline-block;
+}
 .justify-center{
     justify-content: center;
 }
 
 /* utility */
 .logo{
-    height: 50px;
+    height: 40px;
 }
 .col{
     margin-top: 30px;
     background-color: var(--color-bg-card);
     border-radius: 30px;
+    
 }
 img{
     width: 100%;
@@ -80,9 +84,9 @@ img{
     color: white;
     display: inline-block;
     border-radius: 30px;
-    width: 90%;
-    padding: 15px 30px 15px 30px;
-    font-size: 1.8em;
+    width: 100%;
+    padding: 10px 25px 10px 25px;
+    font-size: 1em;
 }   
 .icon{
     font-size: 5em;
@@ -131,6 +135,7 @@ section{
     line-height: 1.6em;
     color: var(--color-light-color);
     font-size: 1.1em;
+    margin-bottom: 30px;
 }
 .circle{
     width:300px ;
@@ -145,4 +150,122 @@ section{
 }
 .cards1 h4{
     font-size: 1em;
+}
+.Benefits h2{
+    color: var(--color-light-color);
+    font-size: 2.5em;
+    
+}
+.Benefits h3{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: var(--color-primary-color);
+}
+.Benefits h4{
+    font-size: 1.4em;
+    color: var(--color-primary-color);
+    margin-bottom: 25px;
+}
+.cards2{
+    background-color: var(--color-light-color);
+    border-radius: 40px;
+    padding: 30px 10px 30px 30px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+.c2btn{
+    width: 40%;
+    font-size: 1em;
+    
+}
+.aboutus h2 {
+    font-size: 2em;
+    color: var(--color-primary-color);
+    padding: 40px 0px;
+    text-align: center;
+}
+.aboutus h3{
+    color: var(--color-primary-color);
+    font-size: 1.7em;
+    padding: 10px;
+}
+.aboutus p{
+    margin-bottom: 40px;
+}
+.aboutus img{
+    width: 40%;
+    border-radius: 50%;
+}
+.aboutus .btn{
+    width:55%;
+    font-size: 1.1em;
+    padding: 10px;
+}
+.callaction h4{
+    color: grey;
+    font-size: 1.4em;
+    font-weight: lighter;
+    
+}
+.callaction h3{
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+}
+.callaction h2{
+    color: rgb(136, 111, 31);
+    font-size: 3em;
+    padding: 40px;
+}
+.callaction p{
+    color: white;
+}
+.callaction .btn{
+    color: var(--color-primary-color);
+    background-color: white;
+}
+footer{
+    background-color: var(--color-dark-color);
+    margin-top: -40px;
+}
+footer p{
+    padding: 50px 20px;
+    color: white;
+}
+/* mediaquery */
+@media screen and (min-width: 576px) {
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .col{
+        width: calc((100% / 3) - 25px);
+        line-height: 1.7em; 
+        font-size: 80%; 
+               
+        
+    }
+    .double{
+        width:63%;
+    }
+    .card1{
+        display: flex;
+    }
+    .circle{
+        width: 200px;
+        height: 200px;
+    }
+    .text-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.8em;
+        text-align: left;
+    }
+    .testimonials .px{
+        padding: 0;
+    }
+    
 }
